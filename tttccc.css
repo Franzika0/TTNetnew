@@ -1,0 +1,101 @@
+#canvas {
+    width:580px;
+    height:1200px;
+    position: absolute; /*重要的一步是設定絕對定位*/
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding:0px;
+    z-index:1;
+    /*border:2px solid #ff6a00;*/
+}
+
+#canvas2 {
+    width: 580px;
+    height: 1200px;
+    position: absolute; /*重要的一步是設定絕對定位*/
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0px;
+    z-index: 4;
+    /*border:2px solid #ff6a00;*/
+}
+
+#container {
+    position: relative;
+    width: 580px;
+    height: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#registertag {
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    border: 3px solid #000000;
+    position: absolute;
+    left: 100px;
+    top: 550px;
+    z-index: 2;
+}
+
+#md01 {
+    width: 250px;
+    height: 250px;
+    filter: alpha(opacity:30);
+    opacity: 0.3;
+    margin: 0 auto;
+    position: absolute;
+    left: 250px;
+    top: 20px;
+    z-index: 3;
+}
+
+#md02 {
+    width: 250px;
+    height: 250px;
+    filter: alpha(opacity:30);
+    opacity: 0.3;
+    margin: 0 auto;
+    position: absolute;
+    left: 340px;
+    top: 190px;
+    z-index: 3;
+}
+
+#menu302content {
+    width: 415px;
+    height: 500px;
+    border: 3px dashed #000000;
+    position: absolute;
+    left: 70px;
+    top: 530px;
+    z-index: 5;
+    font-size:40px;
+}
+
+#menu303content {
+    width: 435px;
+    height: 500px;
+    border: 3px dashed #000000;
+    position: absolute;
+    left: 70px;
+    top: 530px;
+    font-size: 20px;
+    z-index: 5;
+    line-height: 1.5;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #999;
+    background: rgba(250,250,250,0);
+    resize: none;
+}
+
+.displayisnone {
+    display: none;
+}
+
